@@ -1,0 +1,29 @@
+{
+	"menu": [{
+			"path": "/",
+			"name": "Home",
+			"label": "首页"
+		},
+		{
+			"path": "/Product",
+			"name": "Product",
+			"label": "XX管理"
+		},
+		{
+			"path": "/other",
+			"name": "other",
+			"label": "其它",
+			"children": [{
+					"path": "/tinymce",
+					"name": "tinymce",
+					"label": "富文本"
+				},
+				{
+					"path": "/other2",
+					"name": "other2",
+					"label": "其它2"
+				}
+			]
+		}
+	]
+}
